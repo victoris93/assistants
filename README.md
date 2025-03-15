@@ -2,7 +2,7 @@
 
 How to implement LLMs locally as quick actions using `llama-index` (on Mac).
 
-### Pre-requisites
+### 1. Pre-requisites
 
 - Istall [Ollama](https://ollama.com/download)
 - Create a `conda` environment using `reqiuirements.txt` like so: 
@@ -38,7 +38,6 @@ The command should call the Python script using the Python executable in the `co
 
 <span style="color:red">**Note**: Before setting up a quick action, make sure the model has been downloaded on your machine. You can download the model you want to use by running the following command: `ollama pull model_name`.</span>
 
-```shell
 - `input`: text input the model takes (not the same as prompt). In the case of `render_latex_eq.py`, the input is Python code performing maths operations.
 
 <figure>
