@@ -20,7 +20,7 @@ pip install -r requirements.txt
 The quick action you configure will show in any application where text input is possible (text editor, browser, etc.)
 
 <figure>
-    <img src="guide_steps_screens/open_automator_pick_quick_action.png" width="700">
+    <img src="../guide_steps_screens/open_automator_pick_quick_action.png" width="700">
 </figure>
 
 #### 2.2. Create a shell command which will call the Python script
@@ -28,7 +28,7 @@ The quick action you configure will show in any application where text input is 
 Search `Run Shell Script` in the Library using the search tool and drag and drop this option in your quick action.
 
 <figure>
-    <img src="guide_steps_screens/search_shell_script.png" width="700">
+    <img src="../guide_steps_screens/search_shell_script.png" width="700">
 </figure>
 
 #### 2.3. Configure the shell command
@@ -41,7 +41,7 @@ The command should call the Python script using the Python executable in the `co
 - `input`: text input the model takes (not the same as prompt). In the case of `render_latex_eq.py`, the input is Python code performing maths operations.
 
 <figure>
-    <img src="guide_steps_screens/automator_shell_command.png" width="700">
+    <img src="../guide_steps_screens/automator_shell_command.png" width="700">
 </figure>
 
 
@@ -49,10 +49,10 @@ The command should call the Python script using the Python executable in the `co
 
 <div style="display: flex; justify-content: space-around;">
     <figure style="margin: 10px;">
-        <img src="guide_steps_screens/save_quick_action.png" width="700" >
+        <img src="../guide_steps_screens/save_quick_action.png" width="700" >
     </figure>
     <figure style="margin: 10px;">
-        <img src="guide_steps_screens/name_quick_action.png" width="700">
+        <img src="../guide_steps_screens/name_quick_action.png" width="700">
     </figure>
 </div>
 
